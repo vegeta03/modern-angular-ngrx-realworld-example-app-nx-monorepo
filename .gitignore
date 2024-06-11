@@ -38,8 +38,7 @@ testem.log
 .DS_Store
 Thumbs.db
 
-/.nx
-.nx/*
+.nx/
 
 .angular
 .nx/workspace-data/d/daemon.log

@@ -86,7 +86,7 @@
       },
       {
         "file": ".gitignore",
-        "hash": "9077158122073121670"
+        "hash": "18443312043751403300"
       },
       {
         "file": ".prettierignore",
@@ -219,7 +219,7 @@
         },
         {
           "file": "apps/conduit/src/app/app.config.ts",
-          "hash": "6137170128205633588",
+          "hash": "12852349934933410582",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router"
