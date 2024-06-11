@@ -80,64 +80,64 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "12090634411749185289"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "18315524891129148814"
-      },
-      {
         "file": "package.json",
         "hash": "17938800151559578519"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": "README.md",
-        "hash": "6888347600948913518"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "6616838484313884387"
-      },
-      {
-        "file": "nx.json",
-        "hash": "17804517418748316733"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "6091264666890922232"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "5407418692668764289"
       },
       {
         "file": ".prettierrc",
         "hash": "16267754514737964994"
       },
       {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "6616838484313884387"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "13410299755093017071"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "6091264666890922232"
+      },
+      {
+        "file": "README.md",
+        "hash": "5327142963589847946"
+      },
+      {
         "file": "package-lock.json",
         "hash": "1711779487016198546"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "12090634411749185289"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
       }
     ],
     "projectFileMap": {
