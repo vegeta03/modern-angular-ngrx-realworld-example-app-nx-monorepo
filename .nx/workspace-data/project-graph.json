@@ -1,5 +1,55 @@
 {
   "nodes": {
+    "feature-auth": {
+      "name": "feature-auth",
+      "type": "lib",
+      "data": {
+        "root": "libs/auth/feature-auth",
+        "targets": {
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "cache": true,
+            "inputs": [
+              "default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{workspaceRoot}/.eslintignore",
+              "{workspaceRoot}/eslint.config.js"
+            ],
+            "options": {},
+            "configurations": {}
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "cache": true,
+            "inputs": [
+              "default",
+              "^production",
+              "{workspaceRoot}/jest.preset.js"
+            ],
+            "outputs": [
+              "{workspaceRoot}/coverage/{projectRoot}"
+            ],
+            "options": {
+              "passWithNoTests": true,
+              "jestConfig": "libs/auth/feature-auth/jest.config.ts"
+            },
+            "configurations": {
+              "ci": {
+                "ci": true,
+                "codeCoverage": true
+              }
+            }
+          }
+        },
+        "name": "feature-auth",
+        "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/auth/feature-auth/src",
+        "prefix": "lib",
+        "projectType": "library",
+        "tags": [],
+        "implicitDependencies": []
+      }
+    },
     "conduit-e2e": {
       "name": "conduit-e2e",
       "type": "e2e",
@@ -12986,6 +13036,23 @@
     }
   },
   "dependencies": {
+    "feature-auth": [
+      {
+        "source": "feature-auth",
+        "target": "npm:@angular/core",
+        "type": "static"
+      },
+      {
+        "source": "feature-auth",
+        "target": "npm:@angular/common",
+        "type": "static"
+      },
+      {
+        "source": "feature-auth",
+        "target": "npm:jest-preset-angular",
+        "type": "static"
+      }
+    ],
     "conduit-e2e": [
       {
         "source": "conduit-e2e",
