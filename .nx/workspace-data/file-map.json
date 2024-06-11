@@ -80,40 +80,56 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
+        "file": "package-lock.json",
+        "hash": "1711779487016198546"
       },
       {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": "nx.json",
-        "hash": "13410299755093017071"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "13040613871569603638"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "5407418692668764289"
+        "file": "README.md",
+        "hash": "6176453552691482315"
       },
       {
         "file": "yarn.lock",
         "hash": "6616838484313884387"
       },
       {
-        "file": "package-lock.json",
-        "hash": "1711779487016198546"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "package.json",
+        "hash": "17938800151559578519"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "4550268801681311897"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "2260102738991840095"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "13040613871569603638"
+      },
+      {
+        "file": "nx.json",
+        "hash": "13410299755093017071"
       },
       {
         "file": ".editorconfig",
@@ -122,22 +138,6 @@
       {
         "file": ".vscode/extensions.json",
         "hash": "4934098906304722861"
-      },
-      {
-        "file": "package.json",
-        "hash": "17938800151559578519"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "2260102738991840095"
-      },
-      {
-        "file": "README.md",
-        "hash": "6176453552691482315"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "4550268801681311897"
       }
     ],
     "projectFileMap": {
@@ -160,7 +160,7 @@
         },
         {
           "file": "apps/conduit/src/app/app.component.html",
-          "hash": "2433494475112409290"
+          "hash": "18073418704014773406"
         },
         {
           "file": "apps/conduit/src/app/app.component.scss",
@@ -176,7 +176,7 @@
         },
         {
           "file": "apps/conduit/src/app/app.component.ts",
-          "hash": "12557770051135332534",
+          "hash": "756784703887924978",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router"
@@ -203,7 +203,7 @@
         },
         {
           "file": "apps/conduit/src/app/components/footer/footer.component.html",
-          "hash": "4870840326542635113"
+          "hash": "16512966819532502190"
         },
         {
           "file": "apps/conduit/src/app/components/footer/footer.component.scss",
