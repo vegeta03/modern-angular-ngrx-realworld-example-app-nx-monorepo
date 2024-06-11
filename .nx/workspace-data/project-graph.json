@@ -190,9 +190,7 @@
               "outputPath": "dist/apps/conduit",
               "index": "apps/conduit/src/index.html",
               "browser": "apps/conduit/src/main.ts",
-              "polyfills": [
-                "zone.js"
-              ],
+              "polyfills": [],
               "tsConfig": "apps/conduit/tsconfig.app.json",
               "inlineStyleLanguage": "scss",
               "assets": [
