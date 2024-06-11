@@ -13083,6 +13083,11 @@
       },
       {
         "source": "conduit",
+        "target": "feature-auth",
+        "type": "dynamic"
+      },
+      {
+        "source": "conduit",
         "target": "npm:@angular/platform-browser",
         "type": "static"
       },

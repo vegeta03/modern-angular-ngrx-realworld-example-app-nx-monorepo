@@ -80,34 +80,6 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "tsconfig.base.json",
-        "hash": "4550268801681311897"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "6616838484313884387"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "12090634411749185289"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "package.json",
-        "hash": "17938800151559578519"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "1711779487016198546"
-      },
-      {
         "file": "nx.json",
         "hash": "13410299755093017071"
       },
@@ -116,28 +88,56 @@
         "hash": "5407418692668764289"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": "yarn.lock",
+        "hash": "6616838484313884387"
       },
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": "README.md",
-        "hash": "5327142963589847946"
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
       },
       {
         "file": ".eslintrc.json",
         "hash": "18315524891129148814"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
       },
       {
         "file": ".eslintignore",
         "hash": "7663861978715868291"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "1711779487016198546"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "4550268801681311897"
+      },
+      {
+        "file": "README.md",
+        "hash": "6176453552691482315"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "12090634411749185289"
+      },
+      {
+        "file": "package.json",
+        "hash": "17938800151559578519"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       }
     ],
     "projectFileMap": {
@@ -325,9 +325,13 @@
         },
         {
           "file": "apps/conduit/src/app/app.routes.ts",
-          "hash": "6185150965714414910",
+          "hash": "3664044028862856540",
           "deps": [
-            "npm:@angular/router"
+            "npm:@angular/router",
+            [
+              "feature-auth",
+              "dynamic"
+            ]
           ]
         },
         {

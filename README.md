@@ -45,3 +45,4 @@ It will show tasks that you can run with Nx.
 
 - `nx g @nx/angular:library feature-auth --directory=libs/auth/feature-auth --flat=false`
 - `nx g @nx/angular:component login --directory=libs/auth/feature-auth/src/lib/components/login --standalone --style=scss`
+- `nx g @nx/angular:component register --directory=libs/auth/feature-auth/src/lib/components/register --standalone --style=scss`
