@@ -2,7 +2,7 @@
   "name": "conduit",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "prefix": "app",
+  "prefix": "cdt",
   "sourceRoot": "apps/conduit/src",
   "tags": [],
   "targets": {

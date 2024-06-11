@@ -86,7 +86,7 @@
       },
       {
         "file": ".gitignore",
-        "hash": "365594980747264631"
+        "hash": "12261269093197535094"
       },
       {
         "file": ".prettierignore",
@@ -134,109 +134,6 @@
       }
     ],
     "projectFileMap": {
-      "conduit": [
-        {
-          "file": "apps/conduit/.eslintrc.json",
-          "hash": "3322449398258820698"
-        },
-        {
-          "file": "apps/conduit/jest.config.ts",
-          "hash": "1177690616198076001"
-        },
-        {
-          "file": "apps/conduit/project.json",
-          "hash": "17982022262155594674"
-        },
-        {
-          "file": "apps/conduit/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/conduit/src/app/app.component.html",
-          "hash": "5654460193981998828"
-        },
-        {
-          "file": "apps/conduit/src/app/app.component.scss",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/conduit/src/app/app.component.spec.ts",
-          "hash": "15917637986798427549",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/conduit/src/app/app.component.ts",
-          "hash": "13861800946739725485",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/conduit/src/app/app.config.ts",
-          "hash": "6137170128205633588",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/conduit/src/app/app.routes.ts",
-          "hash": "6185150965714414910",
-          "deps": [
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/conduit/src/app/nx-welcome.component.ts",
-          "hash": "18014940747014162857",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "apps/conduit/src/index.html",
-          "hash": "14542258355585080816"
-        },
-        {
-          "file": "apps/conduit/src/main.ts",
-          "hash": "16635586463787978962",
-          "deps": [
-            "npm:@angular/platform-browser"
-          ]
-        },
-        {
-          "file": "apps/conduit/src/styles.scss",
-          "hash": "5195668842064076916"
-        },
-        {
-          "file": "apps/conduit/src/test-setup.ts",
-          "hash": "12935735732682149507",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "apps/conduit/tsconfig.app.json",
-          "hash": "8365644956319658761"
-        },
-        {
-          "file": "apps/conduit/tsconfig.editor.json",
-          "hash": "1055794200401717100"
-        },
-        {
-          "file": "apps/conduit/tsconfig.json",
-          "hash": "10165753922017812673"
-        },
-        {
-          "file": "apps/conduit/tsconfig.spec.json",
-          "hash": "2927375835638640771"
-        }
-      ],
       "conduit-e2e": [
         {
           "file": "apps/conduit-e2e/.eslintrc.json",
@@ -277,6 +174,109 @@
         {
           "file": "apps/conduit-e2e/tsconfig.json",
           "hash": "4332380883180617610"
+        }
+      ],
+      "conduit": [
+        {
+          "file": "apps/conduit/.eslintrc.json",
+          "hash": "3322449398258820698"
+        },
+        {
+          "file": "apps/conduit/jest.config.ts",
+          "hash": "1177690616198076001"
+        },
+        {
+          "file": "apps/conduit/project.json",
+          "hash": "15381779619802080852"
+        },
+        {
+          "file": "apps/conduit/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/conduit/src/app/app.component.html",
+          "hash": "17816966185630879015"
+        },
+        {
+          "file": "apps/conduit/src/app/app.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/conduit/src/app/app.component.spec.ts",
+          "hash": "8478847912094116218",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/conduit/src/app/app.component.ts",
+          "hash": "10441218524883347567",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/conduit/src/app/app.config.ts",
+          "hash": "6137170128205633588",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/conduit/src/app/app.routes.ts",
+          "hash": "6185150965714414910",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/conduit/src/environments/environment.prod.ts",
+          "hash": "3701053892221014198"
+        },
+        {
+          "file": "apps/conduit/src/environments/environment.ts",
+          "hash": "1366346751500868786"
+        },
+        {
+          "file": "apps/conduit/src/index.html",
+          "hash": "14940861887846425062"
+        },
+        {
+          "file": "apps/conduit/src/main.ts",
+          "hash": "16635586463787978962",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/conduit/src/styles.scss",
+          "hash": "2266974586130603144"
+        },
+        {
+          "file": "apps/conduit/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "apps/conduit/tsconfig.app.json",
+          "hash": "8365644956319658761"
+        },
+        {
+          "file": "apps/conduit/tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "apps/conduit/tsconfig.json",
+          "hash": "10165753922017812673"
+        },
+        {
+          "file": "apps/conduit/tsconfig.spec.json",
+          "hash": "2927375835638640771"
         }
       ]
     }

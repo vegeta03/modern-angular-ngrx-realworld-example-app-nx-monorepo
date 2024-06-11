@@ -286,7 +286,7 @@
         "name": "conduit",
         "$schema": "../../node_modules/nx/schemas/project-schema.json",
         "projectType": "application",
-        "prefix": "app",
+        "prefix": "cdt",
         "sourceRoot": "apps/conduit/src",
         "tags": [],
         "implicitDependencies": []
@@ -13012,11 +13012,6 @@
       {
         "source": "conduit",
         "target": "npm:@angular/router",
-        "type": "static"
-      },
-      {
-        "source": "conduit",
-        "target": "npm:@angular/common",
         "type": "static"
       },
       {
