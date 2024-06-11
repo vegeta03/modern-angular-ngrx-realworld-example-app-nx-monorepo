@@ -1,0 +1,284 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.2.3",
+  "deps": {
+    "@angular/animations": "~18.0.0",
+    "@angular/common": "~18.0.0",
+    "@angular/compiler": "~18.0.0",
+    "@angular/core": "~18.0.0",
+    "@angular/forms": "~18.0.0",
+    "@angular/platform-browser": "~18.0.0",
+    "@angular/platform-browser-dynamic": "~18.0.0",
+    "@angular/router": "~18.0.0",
+    "@nx/angular": "19.2.3",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.3",
+    "@angular-devkit/build-angular": "~18.0.0",
+    "@angular-devkit/core": "~18.0.0",
+    "@angular-devkit/schematics": "~18.0.0",
+    "@angular-eslint/eslint-plugin": "^18.0.1",
+    "@angular-eslint/eslint-plugin-template": "^18.0.1",
+    "@angular-eslint/template-parser": "^18.0.1",
+    "@angular/cli": "~18.0.0",
+    "@angular/compiler-cli": "~18.0.0",
+    "@angular/language-service": "~18.0.0",
+    "@nx/cypress": "19.2.3",
+    "@nx/eslint": "19.2.3",
+    "@nx/eslint-plugin": "19.2.3",
+    "@nx/jest": "19.2.3",
+    "@nx/js": "19.2.3",
+    "@nx/web": "19.2.3",
+    "@nx/workspace": "19.2.3",
+    "@schematics/angular": "~18.0.0",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.16.9",
+    "@typescript-eslint/eslint-plugin": "^7.3.0",
+    "@typescript-eslint/parser": "^7.3.0",
+    "@typescript-eslint/utils": "^8.0.0-alpha.28",
+    "cypress": "^13.8.0",
+    "eslint": "~8.57.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-cypress": "^2.13.4",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "jest-preset-angular": "~14.1.0",
+    "nx": "19.2.3",
+    "prettier": "^2.6.2",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.4.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/cypress/plugin",
+      "options": {
+        "targetName": "e2e",
+        "openTargetName": "open-cypress",
+        "componentTestingTargetName": "component-test",
+        "ciTargetName": "e2e-ci"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "365594980747264631"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": "README.md",
+        "hash": "17835223052130742332"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4156212684014568686"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "1711779487016198546"
+      },
+      {
+        "file": "package.json",
+        "hash": "17938800151559578519"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "6616838484313884387"
+      }
+    ],
+    "projectFileMap": {
+      "conduit": [
+        {
+          "file": "apps/conduit/.eslintrc.json",
+          "hash": "3322449398258820698"
+        },
+        {
+          "file": "apps/conduit/jest.config.ts",
+          "hash": "1177690616198076001"
+        },
+        {
+          "file": "apps/conduit/project.json",
+          "hash": "17982022262155594674"
+        },
+        {
+          "file": "apps/conduit/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/conduit/src/app/app.component.html",
+          "hash": "5654460193981998828"
+        },
+        {
+          "file": "apps/conduit/src/app/app.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/conduit/src/app/app.component.spec.ts",
+          "hash": "15917637986798427549",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/conduit/src/app/app.component.ts",
+          "hash": "13861800946739725485",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/conduit/src/app/app.config.ts",
+          "hash": "6137170128205633588",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/conduit/src/app/app.routes.ts",
+          "hash": "6185150965714414910",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/conduit/src/app/nx-welcome.component.ts",
+          "hash": "18014940747014162857",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/conduit/src/index.html",
+          "hash": "14542258355585080816"
+        },
+        {
+          "file": "apps/conduit/src/main.ts",
+          "hash": "16635586463787978962",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/conduit/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/conduit/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "apps/conduit/tsconfig.app.json",
+          "hash": "8365644956319658761"
+        },
+        {
+          "file": "apps/conduit/tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "apps/conduit/tsconfig.json",
+          "hash": "10165753922017812673"
+        },
+        {
+          "file": "apps/conduit/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "conduit-e2e": [
+        {
+          "file": "apps/conduit-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/conduit-e2e/cypress.config.ts",
+          "hash": "6891194675501893516",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/conduit-e2e/project.json",
+          "hash": "17921001262722084522"
+        },
+        {
+          "file": "apps/conduit-e2e/src/e2e/app.cy.ts",
+          "hash": "4535157681821549923"
+        },
+        {
+          "file": "apps/conduit-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/conduit-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/conduit-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "apps/conduit-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/conduit-e2e/tsconfig.json",
+          "hash": "4332380883180617610"
+        }
+      ]
+    }
+  }
+}

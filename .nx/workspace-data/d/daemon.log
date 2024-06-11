@@ -1,0 +1,121 @@
+[NX Daemon Server] - 2024-06-11T14:31:46.859Z - Started listening on: \\.\pipe\nx\C:\Users\shyam\AppData\Local\Temp\c6d35d338c870edff099\d.sock
+[NX Daemon Server] - 2024-06-11T14:31:46.872Z - [WATCHER]: Subscribed to changes within: c:\Users\shyam\Workspace\Angular\modern-angular-ngrx-realworld-example-app-nx-monorepo (native)
+[NX Daemon Server] - 2024-06-11T14:31:46.873Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T14:31:46.874Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-11T14:31:46.875Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T14:31:46.877Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-11T14:31:49.656Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T14:31:49.656Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T14:31:49.656Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T14:32:12.384Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-11T14:32:12.386Z - Time taken for 'total for creating and serializing project graph' 25506.366500005126ms
+[NX Daemon Server] - 2024-06-11T14:32:12.386Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-11T14:32:12.386Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 25507. Response time: 2.
+[NX Daemon Server] - 2024-06-11T14:32:12.391Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-06-11T14:32:12.391Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-06-11T14:32:12.391Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-06-11T14:32:12.392Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T14:32:21.319Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T14:32:21.319Z - [WATCHER]: Stopping the watcher for c:\Users\shyam\Workspace\Angular\modern-angular-ngrx-realworld-example-app-nx-monorepo (sources)
+[NX Daemon Server] - 2024-06-11T14:32:21.320Z - [WATCHER]: Stopping the watcher for c:\Users\shyam\Workspace\Angular\modern-angular-ngrx-realworld-example-app-nx-monorepo (outputs)
+[NX Daemon Server] - 2024-06-11T14:32:21.320Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX Daemon Server] - 2024-06-11T14:32:22.662Z - Started listening on: \\.\pipe\nx\C:\Users\shyam\AppData\Local\Temp\c6d35d338c870edff099\d.sock
+[NX Daemon Server] - 2024-06-11T14:32:22.665Z - [WATCHER]: Subscribed to changes within: c:\Users\shyam\Workspace\Angular\modern-angular-ngrx-realworld-example-app-nx-monorepo (native)
+[NX Daemon Server] - 2024-06-11T14:32:22.671Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T14:32:22.673Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T14:32:22.674Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T14:32:22.675Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-11T14:32:22.883Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T14:32:22.883Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T14:32:22.883Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T14:32:25.028Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-11T14:32:25.030Z - Time taken for 'total for creating and serializing project graph' 2352.586099997163ms
+[NX Daemon Server] - 2024-06-11T14:32:25.030Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-11T14:32:25.030Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2353. Response time: 2.
+[NX Daemon Server] - 2024-06-11T14:32:25.035Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-06-11T14:32:25.035Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-06-11T14:32:25.035Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-11T14:32:25.035Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T14:34:47.353Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T14:38:49.568Z - Started listening on: \\.\pipe\nx\C:\Users\shyam\AppData\Local\Temp\c6d35d338c870edff099\d.sock
+[NX Daemon Server] - 2024-06-11T14:38:49.583Z - [WATCHER]: Subscribed to changes within: C:\Users\shyam\Workspace\Angular\modern-angular-ngrx-realworld-example-app-nx-monorepo (native)
+[NX Daemon Server] - 2024-06-11T14:38:49.585Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T14:38:49.587Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-11T14:38:49.588Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T14:38:49.592Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.593Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.593Z - Handled GLOB. Handling time: 2. Response time: 1.
+[NX Daemon Server] - 2024-06-11T14:38:49.628Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.629Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.629Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-06-11T14:38:49.632Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.632Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.633Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-06-11T14:38:49.897Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.898Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.898Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-06-11T14:38:49.900Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.900Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.900Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-06-11T14:38:49.901Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.902Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.902Z - Handled GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-06-11T14:38:49.903Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.903Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.903Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-11T14:38:49.906Z - [REQUEST]: Responding to the client. handleGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.906Z - Done responding to the client handleGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.906Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-06-11T14:38:49.908Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.909Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-06-11T14:38:49.909Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-06-11T14:38:51.064Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-06-11T14:38:51.065Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-06-11T14:38:51.065Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-06-11T14:38:51.067Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX Daemon Server] - 2024-06-11T14:38:51.067Z - Done responding to the client handleHashGlob
+[NX Daemon Server] - 2024-06-11T14:38:51.067Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-06-11T14:38:51.072Z - [REQUEST]: Responding to the client. handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-06-11T14:38:51.072Z - Done responding to the client handleNxWorkspaceFiles
+[NX Daemon Server] - 2024-06-11T14:38:51.073Z - Handled GET_NX_WORKSPACE_FILES. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-06-11T14:38:51.123Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T14:44:12.728Z - Started listening on: \\.\pipe\nx\C:\Users\shyam\AppData\Local\Temp\c6d35d338c870edff099\d.sock
+[NX Daemon Server] - 2024-06-11T14:44:12.764Z - [WATCHER]: Subscribed to changes within: c:\Users\shyam\Workspace\Angular\modern-angular-ngrx-realworld-example-app-nx-monorepo (native)
+[NX Daemon Server] - 2024-06-11T14:44:12.766Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T14:44:12.767Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-06-11T14:44:12.768Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T14:44:12.770Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-11T14:44:15.280Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T14:44:15.280Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T14:44:15.280Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T14:44:41.150Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-11T14:44:41.153Z - Time taken for 'total for creating and serializing project graph' 28380.27419999242ms
+[NX Daemon Server] - 2024-06-11T14:44:41.154Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T14:44:41.154Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-11T14:44:41.154Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 28380. Response time: 4.
+[NX Daemon Server] - 2024-06-11T14:44:41.160Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-06-11T14:44:41.160Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-06-11T14:44:41.160Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-06-11T14:44:41.161Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T14:45:50.205Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-11T14:45:50.220Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-06-11T14:45:50.220Z - [WATCHER]: Stopping the watcher for c:\Users\shyam\Workspace\Angular\modern-angular-ngrx-realworld-example-app-nx-monorepo (sources)
+[NX Daemon Server] - 2024-06-11T14:45:50.220Z - [WATCHER]: Stopping the watcher for c:\Users\shyam\Workspace\Angular\modern-angular-ngrx-realworld-example-app-nx-monorepo (outputs)
+[NX Daemon Server] - 2024-06-11T14:45:50.220Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-06-11T14:45:51.530Z - Started listening on: \\.\pipe\nx\C:\Users\shyam\AppData\Local\Temp\c6d35d338c870edff099\d.sock
+[NX Daemon Server] - 2024-06-11T14:45:51.533Z - [WATCHER]: Subscribed to changes within: c:\Users\shyam\Workspace\Angular\modern-angular-ngrx-realworld-example-app-nx-monorepo (native)
+[NX Daemon Server] - 2024-06-11T14:45:51.548Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T14:45:51.549Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-11T14:45:51.549Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-11T14:45:51.551Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-11T14:45:51.751Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-11T14:45:51.751Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T14:45:51.751Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-11T14:45:53.231Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-11T14:45:53.234Z - Time taken for 'total for creating and serializing project graph' 1680.1855999976397ms
+[NX Daemon Server] - 2024-06-11T14:45:53.234Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-11T14:45:53.234Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1680. Response time: 3.
+[NX Daemon Server] - 2024-06-11T14:45:53.239Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-06-11T14:45:53.240Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-06-11T14:45:53.240Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-06-11T14:45:53.240Z - Closed a connection. Number of open connections: 0
