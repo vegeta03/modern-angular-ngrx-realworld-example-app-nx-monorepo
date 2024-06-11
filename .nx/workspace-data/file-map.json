@@ -80,20 +80,20 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package-lock.json",
-        "hash": "1711779487016198546"
+        "file": "tsconfig.base.json",
+        "hash": "4550268801681311897"
       },
       {
-        "file": ".prettierignore",
-        "hash": "5407418692668764289"
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
       },
       {
-        "file": ".gitignore",
-        "hash": "12090634411749185289"
+        "file": "nx.json",
+        "hash": "13410299755093017071"
       },
       {
         "file": ".eslintrc.json",
@@ -104,40 +104,40 @@
         "hash": "16267754514737964994"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "4550268801681311897"
+        "file": "package.json",
+        "hash": "17938800151559578519"
       },
       {
-        "file": "README.md",
-        "hash": "6176453552691482315"
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
       },
       {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
+        "file": "package-lock.json",
+        "hash": "1711779487016198546"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "6616838484313884387"
       },
       {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
       },
       {
-        "file": "package.json",
-        "hash": "17938800151559578519"
-      },
-      {
-        "file": "nx.json",
-        "hash": "13410299755093017071"
-      },
-      {
         "file": ".editorconfig",
         "hash": "5443105041930014821"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
+        "file": "README.md",
+        "hash": "6176453552691482315"
       },
       {
-        "file": "yarn.lock",
-        "hash": "6616838484313884387"
+        "file": ".gitignore",
+        "hash": "12090634411749185289"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
       }
     ],
     "projectFileMap": {
@@ -309,7 +309,7 @@
         },
         {
           "file": "apps/conduit/src/app/app.component.ts",
-          "hash": "10441218524883347567",
+          "hash": "13651498074300604688",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router"
@@ -325,7 +325,7 @@
         },
         {
           "file": "apps/conduit/src/app/app.routes.ts",
-          "hash": "3664044028862856540",
+          "hash": "16455588494746647496",
           "deps": [
             "npm:@angular/router",
             [
@@ -344,7 +344,7 @@
         },
         {
           "file": "apps/conduit/src/index.html",
-          "hash": "14940861887846425062"
+          "hash": "16631390257290320082"
         },
         {
           "file": "apps/conduit/src/main.ts",
