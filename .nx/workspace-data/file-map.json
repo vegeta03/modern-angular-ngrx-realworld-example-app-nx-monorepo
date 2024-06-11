@@ -53,11 +53,11 @@
     "typescript": "~5.4.2"
   },
   "pathMappings": {
-    "@realworld/*": [
-      "libs/*"
-    ],
     "@realword/auth/feature-auth": [
       "libs/auth/feature-auth/src/index.ts"
+    ],
+    "@realworld/*": [
+      "libs/*"
     ]
   },
   "nxJsonPlugins": [
@@ -80,32 +80,32 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package.json",
-        "hash": "17938800151559578519"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
+        "file": "tsconfig.base.json",
+        "hash": "4550268801681311897"
       },
       {
         "file": "yarn.lock",
         "hash": "6616838484313884387"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": ".gitignore",
+        "hash": "12090634411749185289"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "package.json",
+        "hash": "17938800151559578519"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "1711779487016198546"
       },
       {
         "file": "nx.json",
@@ -116,28 +116,28 @@
         "hash": "5407418692668764289"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "6091264666890922232"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
       },
       {
         "file": "README.md",
         "hash": "5327142963589847946"
       },
       {
-        "file": "package-lock.json",
-        "hash": "1711779487016198546"
-      },
-      {
         "file": ".eslintrc.json",
         "hash": "18315524891129148814"
       },
       {
-        "file": ".gitignore",
-        "hash": "12090634411749185289"
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
       }
     ],
     "projectFileMap": {
@@ -160,26 +160,30 @@
         },
         {
           "file": "libs/auth/feature-auth/src/index.ts",
-          "hash": "12114190318328535120"
+          "hash": "11485189907647936074"
         },
         {
-          "file": "libs/auth/feature-auth/src/lib/feature-auth/feature-auth.component.css",
+          "file": "libs/auth/feature-auth/src/lib/components/index.ts",
+          "hash": "5454719733754184305"
+        },
+        {
+          "file": "libs/auth/feature-auth/src/lib/components/login/login.component.html",
+          "hash": "15037950857834361771"
+        },
+        {
+          "file": "libs/auth/feature-auth/src/lib/components/login/login.component.scss",
           "hash": "3244421341483603138"
         },
         {
-          "file": "libs/auth/feature-auth/src/lib/feature-auth/feature-auth.component.html",
-          "hash": "18160999282414913973"
-        },
-        {
-          "file": "libs/auth/feature-auth/src/lib/feature-auth/feature-auth.component.spec.ts",
-          "hash": "12897592944635094099",
+          "file": "libs/auth/feature-auth/src/lib/components/login/login.component.spec.ts",
+          "hash": "15200146559264946551",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
-          "file": "libs/auth/feature-auth/src/lib/feature-auth/feature-auth.component.ts",
-          "hash": "14000361498761433863",
+          "file": "libs/auth/feature-auth/src/lib/components/login/login.component.ts",
+          "hash": "6565269148389926716",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common"
@@ -203,6 +207,71 @@
         {
           "file": "libs/auth/feature-auth/tsconfig.spec.json",
           "hash": "7159729809249402441"
+        },
+        {
+          "file": "libs/auth/feature-auth/src/lib/components/register/register.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/auth/feature-auth/src/lib/components/register/register.component.html",
+          "hash": "15461037395588619933"
+        },
+        {
+          "file": "libs/auth/feature-auth/src/lib/components/register/register.component.spec.ts",
+          "hash": "14267401605862513470",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/auth/feature-auth/src/lib/components/register/register.component.ts",
+          "hash": "2366883905437221939",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        }
+      ],
+      "conduit-e2e": [
+        {
+          "file": "apps/conduit-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/conduit-e2e/cypress.config.ts",
+          "hash": "6891194675501893516",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/conduit-e2e/project.json",
+          "hash": "17921001262722084522"
+        },
+        {
+          "file": "apps/conduit-e2e/src/e2e/app.cy.ts",
+          "hash": "4535157681821549923"
+        },
+        {
+          "file": "apps/conduit-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/conduit-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/conduit-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "apps/conduit-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/conduit-e2e/tsconfig.json",
+          "hash": "4332380883180617610"
         }
       ],
       "conduit": [
@@ -306,48 +375,6 @@
         {
           "file": "apps/conduit/tsconfig.spec.json",
           "hash": "2927375835638640771"
-        }
-      ],
-      "conduit-e2e": [
-        {
-          "file": "apps/conduit-e2e/.eslintrc.json",
-          "hash": "14060216369337943343"
-        },
-        {
-          "file": "apps/conduit-e2e/cypress.config.ts",
-          "hash": "6891194675501893516",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/conduit-e2e/project.json",
-          "hash": "17921001262722084522"
-        },
-        {
-          "file": "apps/conduit-e2e/src/e2e/app.cy.ts",
-          "hash": "4535157681821549923"
-        },
-        {
-          "file": "apps/conduit-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "apps/conduit-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "apps/conduit-e2e/src/support/commands.ts",
-          "hash": "5397443931564808659"
-        },
-        {
-          "file": "apps/conduit-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "apps/conduit-e2e/tsconfig.json",
-          "hash": "4332380883180617610"
         }
       ]
     }

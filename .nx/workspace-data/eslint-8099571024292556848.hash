@@ -1,5 +1,5 @@
 {
-  "17421722967768134592": {
+  "9216858384716164586": {
     "apps/conduit": {
       "targets": {
         "lint": {
@@ -55,42 +55,14 @@
       }
     }
   },
-  "16827251469388233388": {
-    "apps/conduit": {
+  "4757473827697439404": {
+    "libs/auth/feature-auth": {
       "targets": {
         "lint": {
           "command": "eslint .",
           "cache": true,
           "options": {
-            "cwd": "apps/conduit"
-          },
-          "inputs": [
-            "default",
-            "^default",
-            "{workspaceRoot}/.eslintrc.json",
-            "{projectRoot}/.eslintrc.json",
-            "{workspaceRoot}/tools/eslint-rules/**/*",
-            {
-              "externalDependencies": [
-                "eslint"
-              ]
-            }
-          ],
-          "outputs": [
-            "{options.outputFile}"
-          ]
-        }
-      }
-    }
-  },
-  "9216858384716164586": {
-    "apps/conduit": {
-      "targets": {
-        "lint": {
-          "command": "eslint .",
-          "cache": true,
-          "options": {
-            "cwd": "apps/conduit"
+            "cwd": "libs/auth/feature-auth"
           },
           "inputs": [
             "default",
