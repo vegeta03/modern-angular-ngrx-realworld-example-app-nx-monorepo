@@ -1,10 +1,11 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
+import { NavbarComponent } from './components';
+
 @Component({
   standalone: true,
-  imports: [RouterModule],
-  // eslint-disable-next-line @angular-eslint/component-selector
+  imports: [RouterModule, NavbarComponent],
   selector: 'cdt-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

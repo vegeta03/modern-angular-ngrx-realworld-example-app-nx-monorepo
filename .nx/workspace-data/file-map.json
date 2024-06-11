@@ -80,71 +80,71 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
       },
       {
         "file": ".eslintignore",
         "hash": "7663861978715868291"
       },
       {
-        "file": ".eslintrc.json",
-        "hash": "18315524891129148814"
+        "file": "nx.json",
+        "hash": "13410299755093017071"
       },
       {
         "file": ".gitignore",
         "hash": "13040613871569603638"
       },
       {
-        "file": ".prettierignore",
-        "hash": "5407418692668764289"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       },
       {
         "file": ".prettierrc",
         "hash": "16267754514737964994"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
       },
       {
-        "file": "README.md",
-        "hash": "6176453552691482315"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "nx.json",
-        "hash": "13410299755093017071"
+        "file": "yarn.lock",
+        "hash": "6616838484313884387"
       },
       {
         "file": "package-lock.json",
         "hash": "1711779487016198546"
       },
       {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
         "file": "package.json",
         "hash": "17938800151559578519"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "4550268801681311897"
+        "file": ".eslintrc.json",
+        "hash": "2260102738991840095"
       },
       {
-        "file": "yarn.lock",
-        "hash": "6616838484313884387"
+        "file": "README.md",
+        "hash": "6176453552691482315"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "4550268801681311897"
       }
     ],
     "projectFileMap": {
       "conduit": [
         {
           "file": "apps/conduit/.eslintrc.json",
-          "hash": "3322449398258820698"
+          "hash": "18142162702172029993"
         },
         {
           "file": "apps/conduit/jest.config.ts",
@@ -160,7 +160,7 @@
         },
         {
           "file": "apps/conduit/src/app/app.component.html",
-          "hash": "17816966185630879015"
+          "hash": "2433494475112409290"
         },
         {
           "file": "apps/conduit/src/app/app.component.scss",
@@ -176,7 +176,7 @@
         },
         {
           "file": "apps/conduit/src/app/app.component.ts",
-          "hash": "13651498074300604688",
+          "hash": "12557770051135332534",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router"
@@ -199,6 +199,56 @@
               "feature-auth",
               "dynamic"
             ]
+          ]
+        },
+        {
+          "file": "apps/conduit/src/app/components/footer/footer.component.html",
+          "hash": "4870840326542635113"
+        },
+        {
+          "file": "apps/conduit/src/app/components/footer/footer.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/conduit/src/app/components/footer/footer.component.spec.ts",
+          "hash": "5850760657800237085",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/conduit/src/app/components/footer/footer.component.ts",
+          "hash": "4462239398968165189",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/conduit/src/app/components/index.ts",
+          "hash": "4298599940580769511"
+        },
+        {
+          "file": "apps/conduit/src/app/components/navbar/navbar.component.html",
+          "hash": "808782849339723464"
+        },
+        {
+          "file": "apps/conduit/src/app/components/navbar/navbar.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/conduit/src/app/components/navbar/navbar.component.spec.ts",
+          "hash": "11611426068913683136",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/conduit/src/app/components/navbar/navbar.component.ts",
+          "hash": "10435133304240549421",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
           ]
         },
         {

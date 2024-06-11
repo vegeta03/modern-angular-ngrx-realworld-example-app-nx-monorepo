@@ -13088,6 +13088,11 @@
       },
       {
         "source": "conduit",
+        "target": "npm:@angular/common",
+        "type": "static"
+      },
+      {
+        "source": "conduit",
         "target": "npm:@angular/platform-browser",
         "type": "static"
       },
