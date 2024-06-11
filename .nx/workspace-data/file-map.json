@@ -80,40 +80,28 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "nx.json",
-        "hash": "13410299755093017071"
+        "file": "package-lock.json",
+        "hash": "1711779487016198546"
       },
       {
         "file": ".prettierignore",
         "hash": "5407418692668764289"
       },
       {
-        "file": "yarn.lock",
-        "hash": "6616838484313884387"
-      },
-      {
         "file": "jest.config.ts",
         "hash": "3494843969422251966"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "12090634411749185289"
       },
       {
         "file": ".eslintrc.json",
         "hash": "18315524891129148814"
       },
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "1711779487016198546"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": "tsconfig.base.json",
@@ -124,20 +112,32 @@
         "hash": "6176453552691482315"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
       },
       {
-        "file": ".gitignore",
-        "hash": "12090634411749185289"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       },
       {
         "file": "package.json",
         "hash": "17938800151559578519"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
+        "file": "nx.json",
+        "hash": "13410299755093017071"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "6616838484313884387"
       }
     ],
     "projectFileMap": {
@@ -317,7 +317,7 @@
         },
         {
           "file": "apps/conduit/src/app/app.config.ts",
-          "hash": "6137170128205633588",
+          "hash": "3228846323027348283",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router"
