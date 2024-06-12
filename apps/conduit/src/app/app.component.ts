@@ -21,5 +21,5 @@ export class AppComponent {
     image: 'https://i.pinimg.com/originals/2b/db/46/2bdb464b906e446833be1a01609f47a0.jpg',
   });
 
-  isLoggedIn = signal<boolean>(true);
+  isLoggedIn = signal<boolean>(false);
 }
