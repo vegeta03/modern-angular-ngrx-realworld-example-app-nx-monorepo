@@ -83,44 +83,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": "nx.json",
-        "hash": "13410299755093017071"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "13040613871569603638"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "1711779487016198546"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "2260102738991840095"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "7516116156471199690"
-      },
-      {
         "file": "jest.config.ts",
         "hash": "3494843969422251966"
       },
       {
-        "file": "README.md",
-        "hash": "12415852928175995569"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
+        "file": ".gitignore",
+        "hash": "13040613871569603638"
       },
       {
         "file": "package.json",
@@ -131,16 +99,48 @@
         "hash": "5407418692668764289"
       },
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
       },
       {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
       },
       {
+        "file": "tsconfig.base.json",
+        "hash": "7516116156471199690"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "1711779487016198546"
+      },
+      {
         "file": "yarn.lock",
         "hash": "6616838484313884387"
+      },
+      {
+        "file": "nx.json",
+        "hash": "13410299755093017071"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "2260102738991840095"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "README.md",
+        "hash": "12415852928175995569"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
       }
     ],
     "projectFileMap": {
@@ -166,6 +166,14 @@
           "hash": "1748383720051645230"
         },
         {
+          "file": "libs/core/api-types/src/lib/types/index.ts",
+          "hash": "17087899560881966875"
+        },
+        {
+          "file": "libs/core/api-types/src/lib/types/user.ts",
+          "hash": "3144892632128340909"
+        },
+        {
           "file": "libs/core/api-types/src/test-setup.ts",
           "hash": "12935735732682149507",
           "deps": [
@@ -183,14 +191,6 @@
         {
           "file": "libs/core/api-types/tsconfig.spec.json",
           "hash": "7159729809249402441"
-        },
-        {
-          "file": "libs/core/api-types/src/lib/types/user.ts",
-          "hash": "3144892632128340909"
-        },
-        {
-          "file": "libs/core/api-types/src/lib/types/index.ts",
-          "hash": "17087899560881966875"
         }
       ],
       "feature-auth": [
@@ -284,6 +284,48 @@
           "hash": "7159729809249402441"
         }
       ],
+      "conduit-e2e": [
+        {
+          "file": "apps/conduit-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/conduit-e2e/cypress.config.ts",
+          "hash": "6891194675501893516",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/conduit-e2e/project.json",
+          "hash": "17921001262722084522"
+        },
+        {
+          "file": "apps/conduit-e2e/src/e2e/app.cy.ts",
+          "hash": "4535157681821549923"
+        },
+        {
+          "file": "apps/conduit-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/conduit-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/conduit-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "apps/conduit-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/conduit-e2e/tsconfig.json",
+          "hash": "4332380883180617610"
+        }
+      ],
       "conduit": [
         {
           "file": "apps/conduit/.eslintrc.json",
@@ -303,7 +345,7 @@
         },
         {
           "file": "apps/conduit/src/app/app.component.html",
-          "hash": "18073418704014773406"
+          "hash": "3479365343844231940"
         },
         {
           "file": "apps/conduit/src/app/app.component.scss",
@@ -319,10 +361,11 @@
         },
         {
           "file": "apps/conduit/src/app/app.component.ts",
-          "hash": "756784703887924978",
+          "hash": "11261382852697992157",
           "deps": [
             "npm:@angular/core",
-            "npm:@angular/router"
+            "npm:@angular/router",
+            "api-types"
           ]
         },
         {
@@ -373,7 +416,7 @@
         },
         {
           "file": "apps/conduit/src/app/components/navbar/navbar.component.html",
-          "hash": "808782849339723464"
+          "hash": "3711732869244101288"
         },
         {
           "file": "apps/conduit/src/app/components/navbar/navbar.component.scss",
@@ -388,10 +431,11 @@
         },
         {
           "file": "apps/conduit/src/app/components/navbar/navbar.component.ts",
-          "hash": "6906792480136486141",
+          "hash": "18344818214687877168",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
+            "npm:@angular/router",
             "api-types"
           ]
         },
@@ -440,48 +484,6 @@
         {
           "file": "apps/conduit/tsconfig.spec.json",
           "hash": "2927375835638640771"
-        }
-      ],
-      "conduit-e2e": [
-        {
-          "file": "apps/conduit-e2e/.eslintrc.json",
-          "hash": "14060216369337943343"
-        },
-        {
-          "file": "apps/conduit-e2e/cypress.config.ts",
-          "hash": "6891194675501893516",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/conduit-e2e/project.json",
-          "hash": "17921001262722084522"
-        },
-        {
-          "file": "apps/conduit-e2e/src/e2e/app.cy.ts",
-          "hash": "4535157681821549923"
-        },
-        {
-          "file": "apps/conduit-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "apps/conduit-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "apps/conduit-e2e/src/support/commands.ts",
-          "hash": "5397443931564808659"
-        },
-        {
-          "file": "apps/conduit-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "apps/conduit-e2e/tsconfig.json",
-          "hash": "4332380883180617610"
         }
       ]
     }

@@ -13140,17 +13140,17 @@
       },
       {
         "source": "conduit",
+        "target": "api-types",
+        "type": "static"
+      },
+      {
+        "source": "conduit",
         "target": "feature-auth",
         "type": "dynamic"
       },
       {
         "source": "conduit",
         "target": "npm:@angular/common",
-        "type": "static"
-      },
-      {
-        "source": "conduit",
-        "target": "api-types",
         "type": "static"
       },
       {

@@ -1,12 +1,13 @@
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 import { User } from '@realword/core/api-types';
 
 @Component({
   selector: 'cdt-navbar',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink, RouterLinkActive],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
