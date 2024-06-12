@@ -1,5 +1,7 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
+import { User } from '@realword/core/api-types';
 
 @Component({
   selector: 'cdt-navbar',
@@ -9,4 +11,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './navbar.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class NavbarComponent {}
+export class NavbarComponent {
+  user = input.required<User>();
+  isLoggedIn = input.required<boolean>();
+}

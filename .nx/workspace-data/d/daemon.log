@@ -161,3 +161,20 @@
 [NX Daemon Server] - 2024-06-11T22:22:40.576Z - Done responding to the client project-graph
 [NX Daemon Server] - 2024-06-11T22:22:40.576Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
 [NX Daemon Server] - 2024-06-11T22:22:43.815Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-06-12T08:17:00.718Z - Started listening on: \\.\pipe\nx\C:\Users\shyam\AppData\Local\Temp\c6d35d338c870edff099\d.sock
+[NX Daemon Server] - 2024-06-12T08:17:00.722Z - [WATCHER]: Subscribed to changes within: c:\Users\shyam\Workspace\Angular\modern-angular-ngrx-realworld-example-app-nx-monorepo (native)
+[NX Daemon Server] - 2024-06-12T08:17:00.724Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-12T08:17:00.727Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-06-12T08:17:00.727Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-06-12T08:17:00.729Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-06-12T08:17:00.873Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-06-12T08:17:00.873Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-12T08:17:00.873Z - [REQUEST]: 
+[NX Daemon Server] - 2024-06-12T08:17:02.932Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-06-12T08:17:02.934Z - Time taken for 'total for creating and serializing project graph' 2202.625499999849ms
+[NX Daemon Server] - 2024-06-12T08:17:02.935Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-06-12T08:17:02.935Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2203. Response time: 3.
+[NX Daemon Server] - 2024-06-12T08:17:02.942Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX Daemon Server] - 2024-06-12T08:17:02.943Z - Done responding to the client handleContextFileData
+[NX Daemon Server] - 2024-06-12T08:17:02.943Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-06-12T08:17:02.944Z - Closed a connection. Number of open connections: 0
