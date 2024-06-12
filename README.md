@@ -47,3 +47,5 @@ It will show tasks that you can run with Nx.
 - `nx g @nx/angular:component login --directory=libs/auth/feature-auth/src/lib/components/login --standalone --style=scss`
 - `nx g @nx/angular:component register --directory=libs/auth/feature-auth/src/lib/components/register --standalone --style=scss`
 - `nx g @nx/angular:library api-types --directory=libs/core/api-types --style=scss --flat=false --projectNameAndRootFormat as-provided --no-interactive`
+- `nx g @nx/angular:library feature-login --directory=libs/auth/feature-login --style=scss --flat=false --projectNameAndRootFormat as-provided --no-interactive`
+- `nx g @nx/angular:library feature-register --directory=libs/auth/feature-register --style=scss --flat=false --projectNameAndRootFormat as-provided --no-interactive`

@@ -53,11 +53,14 @@
     "typescript": "~5.4.2"
   },
   "pathMappings": {
+    "@realword/auth/feature-login": [
+      "libs/auth/feature-login/src/index.ts"
+    ],
+    "@realword/auth/feature-register": [
+      "libs/auth/feature-register/src/index.ts"
+    ],
     "@realword/core/api-types": [
       "libs/core/api-types/src/index.ts"
-    ],
-    "@realword/auth/feature-auth": [
-      "libs/auth/feature-auth/src/index.ts"
     ],
     "@realworld/*": [
       "libs/*"
@@ -83,207 +86,71 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "13040613871569603638"
-      },
-      {
-        "file": "package.json",
-        "hash": "17938800151559578519"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "5407418692668764289"
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
       },
       {
         "file": ".eslintignore",
         "hash": "7663861978715868291"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "7516116156471199690"
-      },
-      {
         "file": ".prettierrc",
         "hash": "16267754514737964994"
       },
       {
-        "file": "package-lock.json",
-        "hash": "1711779487016198546"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "6616838484313884387"
-      },
-      {
-        "file": "nx.json",
-        "hash": "13410299755093017071"
+        "file": "tsconfig.base.json",
+        "hash": "16031944178454993081"
       },
       {
         "file": ".eslintrc.json",
         "hash": "2260102738991840095"
       },
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
+        "file": "README.md",
+        "hash": "9010099718834476044"
       },
       {
-        "file": "README.md",
-        "hash": "12415852928175995569"
+        "file": "Features.md",
+        "hash": "2324601019162779557"
+      },
+      {
+        "file": "package.json",
+        "hash": "17938800151559578519"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
       },
       {
         "file": ".vscode/extensions.json",
         "hash": "4934098906304722861"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
+        "file": "nx.json",
+        "hash": "13410299755093017071"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "1711779487016198546"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "13040613871569603638"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "6616838484313884387"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       }
     ],
     "projectFileMap": {
-      "api-types": [
-        {
-          "file": "libs/core/api-types/.eslintrc.json",
-          "hash": "16743967055319191231"
-        },
-        {
-          "file": "libs/core/api-types/README.md",
-          "hash": "9638403889226983787"
-        },
-        {
-          "file": "libs/core/api-types/jest.config.ts",
-          "hash": "1057776466739816214"
-        },
-        {
-          "file": "libs/core/api-types/project.json",
-          "hash": "9445719324435999"
-        },
-        {
-          "file": "libs/core/api-types/src/index.ts",
-          "hash": "1748383720051645230"
-        },
-        {
-          "file": "libs/core/api-types/src/lib/types/index.ts",
-          "hash": "17087899560881966875"
-        },
-        {
-          "file": "libs/core/api-types/src/lib/types/user.ts",
-          "hash": "3144892632128340909"
-        },
-        {
-          "file": "libs/core/api-types/src/test-setup.ts",
-          "hash": "12935735732682149507",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "libs/core/api-types/tsconfig.json",
-          "hash": "8526453262384300416"
-        },
-        {
-          "file": "libs/core/api-types/tsconfig.lib.json",
-          "hash": "6020606002228403423"
-        },
-        {
-          "file": "libs/core/api-types/tsconfig.spec.json",
-          "hash": "7159729809249402441"
-        }
-      ],
-      "feature-auth": [
-        {
-          "file": "libs/auth/feature-auth/.eslintrc.json",
-          "hash": "16743967055319191231"
-        },
-        {
-          "file": "libs/auth/feature-auth/README.md",
-          "hash": "13169333304583828305"
-        },
-        {
-          "file": "libs/auth/feature-auth/jest.config.ts",
-          "hash": "1858134506672817178"
-        },
-        {
-          "file": "libs/auth/feature-auth/project.json",
-          "hash": "7327070291966197828"
-        },
-        {
-          "file": "libs/auth/feature-auth/src/index.ts",
-          "hash": "11485189907647936074"
-        },
-        {
-          "file": "libs/auth/feature-auth/src/lib/components/index.ts",
-          "hash": "2417857283606891214"
-        },
-        {
-          "file": "libs/auth/feature-auth/src/lib/components/login/login.component.html",
-          "hash": "15037950857834361771"
-        },
-        {
-          "file": "libs/auth/feature-auth/src/lib/components/login/login.component.scss",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/auth/feature-auth/src/lib/components/login/login.component.spec.ts",
-          "hash": "15200146559264946551",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/auth/feature-auth/src/lib/components/login/login.component.ts",
-          "hash": "6565269148389926716",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "libs/auth/feature-auth/src/lib/components/register/register.component.html",
-          "hash": "15461037395588619933"
-        },
-        {
-          "file": "libs/auth/feature-auth/src/lib/components/register/register.component.scss",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/auth/feature-auth/src/lib/components/register/register.component.spec.ts",
-          "hash": "14267401605862513470",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/auth/feature-auth/src/lib/components/register/register.component.ts",
-          "hash": "2366883905437221939",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "libs/auth/feature-auth/src/test-setup.ts",
-          "hash": "12935735732682149507",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "libs/auth/feature-auth/tsconfig.json",
-          "hash": "8526453262384300416"
-        },
-        {
-          "file": "libs/auth/feature-auth/tsconfig.lib.json",
-          "hash": "6020606002228403423"
-        },
-        {
-          "file": "libs/auth/feature-auth/tsconfig.spec.json",
-          "hash": "7159729809249402441"
-        }
-      ],
       "conduit-e2e": [
         {
           "file": "apps/conduit-e2e/.eslintrc.json",
@@ -378,11 +245,15 @@
         },
         {
           "file": "apps/conduit/src/app/app.routes.ts",
-          "hash": "16455588494746647496",
+          "hash": "9037367570726854397",
           "deps": [
             "npm:@angular/router",
             [
-              "feature-auth",
+              "feature-register",
+              "dynamic"
+            ],
+            [
+              "feature-login",
               "dynamic"
             ]
           ]
@@ -484,6 +355,187 @@
         {
           "file": "apps/conduit/tsconfig.spec.json",
           "hash": "2927375835638640771"
+        }
+      ],
+      "feature-register": [
+        {
+          "file": "libs/auth/feature-register/.eslintrc.json",
+          "hash": "16743967055319191231"
+        },
+        {
+          "file": "libs/auth/feature-register/README.md",
+          "hash": "16435468046667888846"
+        },
+        {
+          "file": "libs/auth/feature-register/jest.config.ts",
+          "hash": "16281935917188949242"
+        },
+        {
+          "file": "libs/auth/feature-register/project.json",
+          "hash": "6004375679713168271"
+        },
+        {
+          "file": "libs/auth/feature-register/src/index.ts",
+          "hash": "16145745539493981095"
+        },
+        {
+          "file": "libs/auth/feature-register/src/lib/feature-register/feature-register.component.html",
+          "hash": "11410700385633643076"
+        },
+        {
+          "file": "libs/auth/feature-register/src/lib/feature-register/feature-register.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/auth/feature-register/src/lib/feature-register/feature-register.component.spec.ts",
+          "hash": "5005245831206467882",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/auth/feature-register/src/lib/feature-register/feature-register.component.ts",
+          "hash": "5039523055442862211",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/auth/feature-register/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/auth/feature-register/tsconfig.json",
+          "hash": "8526453262384300416"
+        },
+        {
+          "file": "libs/auth/feature-register/tsconfig.lib.json",
+          "hash": "6020606002228403423"
+        },
+        {
+          "file": "libs/auth/feature-register/tsconfig.spec.json",
+          "hash": "7159729809249402441"
+        }
+      ],
+      "api-types": [
+        {
+          "file": "libs/core/api-types/.eslintrc.json",
+          "hash": "16743967055319191231"
+        },
+        {
+          "file": "libs/core/api-types/README.md",
+          "hash": "9638403889226983787"
+        },
+        {
+          "file": "libs/core/api-types/jest.config.ts",
+          "hash": "1057776466739816214"
+        },
+        {
+          "file": "libs/core/api-types/project.json",
+          "hash": "9445719324435999"
+        },
+        {
+          "file": "libs/core/api-types/src/index.ts",
+          "hash": "1748383720051645230"
+        },
+        {
+          "file": "libs/core/api-types/src/lib/types/index.ts",
+          "hash": "17087899560881966875"
+        },
+        {
+          "file": "libs/core/api-types/src/lib/types/user.ts",
+          "hash": "3144892632128340909"
+        },
+        {
+          "file": "libs/core/api-types/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/core/api-types/tsconfig.json",
+          "hash": "8526453262384300416"
+        },
+        {
+          "file": "libs/core/api-types/tsconfig.lib.json",
+          "hash": "6020606002228403423"
+        },
+        {
+          "file": "libs/core/api-types/tsconfig.spec.json",
+          "hash": "7159729809249402441"
+        }
+      ],
+      "feature-login": [
+        {
+          "file": "libs/auth/feature-login/.eslintrc.json",
+          "hash": "16743967055319191231"
+        },
+        {
+          "file": "libs/auth/feature-login/README.md",
+          "hash": "8649020674158837261"
+        },
+        {
+          "file": "libs/auth/feature-login/jest.config.ts",
+          "hash": "13842162932716904469"
+        },
+        {
+          "file": "libs/auth/feature-login/project.json",
+          "hash": "3340425825397760192"
+        },
+        {
+          "file": "libs/auth/feature-login/src/index.ts",
+          "hash": "11485189907647936074"
+        },
+        {
+          "file": "libs/auth/feature-login/src/lib/components/feature-login/feature-login.component.html",
+          "hash": "11564581990719589621"
+        },
+        {
+          "file": "libs/auth/feature-login/src/lib/components/feature-login/feature-login.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/auth/feature-login/src/lib/components/feature-login/feature-login.component.spec.ts",
+          "hash": "11020065333288869832",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/auth/feature-login/src/lib/components/feature-login/feature-login.component.ts",
+          "hash": "8710871493459088250",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/auth/feature-login/src/lib/components/index.ts",
+          "hash": "3212673221071878703"
+        },
+        {
+          "file": "libs/auth/feature-login/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/auth/feature-login/tsconfig.json",
+          "hash": "8526453262384300416"
+        },
+        {
+          "file": "libs/auth/feature-login/tsconfig.lib.json",
+          "hash": "6020606002228403423"
+        },
+        {
+          "file": "libs/auth/feature-login/tsconfig.spec.json",
+          "hash": "7159729809249402441"
         }
       ]
     }

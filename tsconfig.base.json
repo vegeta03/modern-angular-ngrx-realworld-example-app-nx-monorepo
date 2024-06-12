@@ -18,11 +18,14 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@realword/auth/feature-login": [
+        "libs/auth/feature-login/src/index.ts"
+      ],
+      "@realword/auth/feature-register": [
+        "libs/auth/feature-register/src/index.ts"
+      ],
       "@realword/core/api-types": [
         "libs/core/api-types/src/index.ts"
-      ],
-      "@realword/auth/feature-auth": [
-        "libs/auth/feature-auth/src/index.ts"
       ],
       "@realworld/*": [
         "libs/*"
